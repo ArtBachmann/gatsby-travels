@@ -1,18 +1,18 @@
 export default [
   {
     path: "/",
-    text: "home",
+    text: "etusivu",
   },
   {
     path: "/blog",
-    text: "blog",
+    text: "blogi",
   },
   {
     path: "/tours",
-    text: "tours",
+    text: "matkat",
   },
   {
     path: "/contact",
-    text: "contact",
+    text: "yhteystiedot",
   },
 ]
