@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Button from "../examples/Button"
+import StyledHero from "../components/StyledHero"
+import { graphql } from "gatsby"
 
 const tours = () => {
   return <Layout>Hello from tours page!!!</Layout>
