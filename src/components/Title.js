@@ -26,7 +26,7 @@ export default styled(Title)`
     color: var(--mainBlack);
   }
   .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     letter-spacing: 3px;
   }
   span {
