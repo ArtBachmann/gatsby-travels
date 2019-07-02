@@ -1,11 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/Layout"
 import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
+import FeaturedTours from "../components/Home/FeaturedTours"
 
 export default ({ data }) => (
   <Layout>
@@ -14,13 +15,14 @@ export default ({ data }) => (
         title="Lammaslampi"
         info="Lammaslampi (ruots. Lammträsk) on pieni järvi Länsi-Vantaan Hämeenkylän kaupunginosan Pähkinärinteen asuinalueen äärellä. Lampi on ruskeavetinen ja rehevä, ja kuuluu Pitkäjärven valuma-alueeseen."
       >
-        <Link to="/tours" className="btn-white">
+        <AniLink fade to="/tours" className="btn-white">
           Tutustu ympäristöön
-        </Link>
+        </AniLink>
       </Banner>
     </StyledHero>
     <About />
     <Services />
+    <FeaturedTours />
   </Layout>
 )
 
